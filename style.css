@@ -1,0 +1,41 @@
+nav {
+    height: 70px;
+}
+
+.title h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.menu_title h2 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.carte{
+    display: flex;
+    justify-content: space-around;
+    margin: 95px;
+}
+
+.image_a_propos{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.form_title h2{
+    text-align: center;
+}
+
+.form_input{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn-primary {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
