@@ -1,5 +1,7 @@
+
 nav {
-    height: 70px;
+    height: 50px;
+    background-color: rgb(192, 186, 186);
 }
 
 .title h1 {
@@ -38,4 +40,12 @@ nav {
     background-color: blue;
     border-color: blue;
     color: white;
+}
+
+
+footer p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
 }
