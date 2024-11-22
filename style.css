@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+    .nav {
+      flex-direction: column; /* Affiche les éléments verticalement */
+    }
+  }
 
 nav {
     height: 50px;
@@ -49,3 +54,34 @@ footer p {
     color: white;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+  
+    .title h1,
+    .menu_title h2,
+    .form_title h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .carte {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+  
+    .image_a_propos {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+  
+    .form_input {
+      margin: 0 20px;
+    }
+  }
+  
+  /* ... rest of your CSS ... */
